@@ -1,0 +1,341 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Gaëtan Canovas
+{% endblock %}
+
+{% block body %}
+
+
+	<div class="banner">
+
+		<nav class="navbar">
+			<div class="navbar-brand">
+
+				<img src="../../assets/images/moicrop.jpg" width="224" height="224" class="d-inline-block align-top img-circle" alt="" loading="lazy">
+			
+			<div class="text-aside-pic">
+				<h2>Gaëtan Canovas</h2><br><h4>Développeur Back-End</h4>
+			</div>
+      </div>
+			<div>
+				<button class="btn btn-outline-light my-2 my-sm-0"  data-toggle="modal" data-target="#contact" style="bottom:0;" type="submit">ME CONTACTER</button>
+				{{ include('_me_contacter.html.twig') }}
+				<a href="{{path('download_resume')}}" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light my-2 my-sm-0" type="submit">TELECHARGER MON CV</button></a>
+			</div>
+		</nav>
+
+
+		<div class="container">
+			{% for message in app.flashes('success') %}
+				<div class="alert alert-success message-flash" id="test">
+					{{ message }}
+				</div>
+			{% endfor %}
+
+			<div class="card-deck m-auto d-flex justify-content-center">
+
+				<div class="col-4">
+					<div class="card text-center">
+						<div class="card-body d-flex align-items-center d-flex justify-content-center ">
+							<div class="d-flex flex-column ">
+								<h1 class="card-title   ">
+									<i class="fa fa-id-card" aria-hidden="true"></i>
+									<br>Qui suis-je</h1>
+								<p class="card-text   ">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>
+									Alès, Occitanie, France</p>
+								<p>
+									Mobilité:
+									<br>
+									France Métropolitaine, Candada<3, Belgique, Etats-Unis, Royaume-Uni, Suisse
+								</p>
+								<p>
+									Télétravail possible</p>
+								<div class="card-footer">
+									<button type="button" class="btn btn-outline-light btn-a-propos" data-toggle="modal" data-target="#a-propos" style="bottom:0;">
+										<i class="fa fa-eye" aria-hidden="true"></i> A propos de moi</button>
+									{{ include('_a_propos_de_moi.html.twig') }}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4 ">
+					<div class="card card2 row text-center d-flex">
+						<div class="card-body align-items-center d-flex justify-content-center">
+							<div class="d-flex flex-column">
+								<h1 class="card-title">
+									<i class="fa fa-cog" aria-hidden="true"></i>
+									<br>Compétences</h1>
+								<div class="">
+
+									<div class="d-flex flex-direction-row justify-content-around pt-10">
+										<p><i class="fab fa-symfony" aria-hidden="true"></i>
+										<br>Symfony</p>
+										<p><i class="fab fa-php" aria-hidden="true"></i>
+										<br>PHP</p>
+										<p><i class="fas fa-database"></i>
+										<br>MySQL</p>
+										
+										
+									</div>
+
+									<div class="d-flex flex-direction-row justify-content-around">
+										<p><i class="fab fa-html5" aria-hidden="true"></i>
+										<br>HTML 5 </p>
+										<p><i class="fab fa-css3" aria-hidden="true"></i>
+										<br>CSS 3 </p>
+										<p><i class="fab fa-bootstrap" aria-hidden="true"></i>
+										<br>Bootstrap</p>
+									</div>
+
+									<div class="d-flex flex-direction-row justify-content-around">
+										<p><i class="fab fa-js-square" aria-hidden="true"></i>
+										<br>JavaScript</p>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card text-center">
+						<div class="card-body three d-flex align-items-center d-flex justify-content-center">
+							<div class="d-flex flex-column">
+								<h1 class="card-title">
+									<i class="fa fa-code" aria-hidden="true"></i>
+									<br>Projets réalisés</h1>
+								<p class="card-text">
+									<a href="http://ec2-34-227-161-244.compute-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">
+										His Life</a>
+									, site réalisé dans le cadre du projet de fin de formation chez O'Clock</p>
+								<div class="card-footer">
+									<button type="button" class="btn btn-outline-light btn-projets" data-toggle="modal" data-target="#projets" style="bottom:0;">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+										Voir 1 projet</button>
+									{{ include('_projets_realises.html.twig') }}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-4">
+					<div class="card text-center">
+						<div class="card-body d-flex align-items-center d-flex justify-content-center">
+							<div class="d-flex flex-column">
+								<h1 class="card-title">
+									<i class="fa fa-briefcase" aria-hidden="true"></i>
+									<br>Expériences</h1>
+								<h1 class="card-text">
+									Lead Développeur Back-End (Symfony) @ HisLife</h1>
+								<div class="card-footer">
+									<button type="button" class="btn btn-outline-light btn-exp" data-toggle="modal" data-target="#experiences">
+										<i class="fa fa-eye" aria-hidden="true"></i> Voir mon parcours</button>
+									{{ include('_experiences.html.twig') }}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card text-center">
+						<div class="card-body d-flex align-items-center d-flex justify-content-center">
+							<div class="d-flex flex-column">
+								<h1 class="card-title">
+									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+									<br>Formations</h1>
+								<p class="card-text">
+									Janvier-Juin 2020</p>
+								<p class="card-text">
+									<a href="http://www.oclock.io" target="_blank" rel="noopener noreferrer">
+										O'Clock</a>
+									- Formatation en Téléprésentiel - Labellisée Grande Ecole du Numérique
+									<div class="card-footer">
+										<button type="button" class="btn btn-outline-light btn-formations" data-toggle="modal" data-target="#formations">
+											<i class="fa fa-eye" aria-hidden="true"></i> Voir mes études</button>
+										{{ include('_formations.html.twig') }}</div>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4 slider-block">
+				
+					<div class="card text-center carousel slide" data-ride="carousel" id= "carouselHobbies">
+
+					
+
+						<ol class="carousel-indicators">
+						<h1 class="card-title hobbies">
+									<i class="fa fa-gamepad" aria-hidden="true"></i>
+									<br>Hobbies</h1>
+							<li data-target="#carouselHobbies" data-slide-to-"0" class="active"></li>
+							<li data-target="#carouselHobbies" data-slide-to-"1" ></li>
+							<li data-target="#carouselHobbies" data-slide-to-"2" ></li>
+							<li data-target="#carouselHobbies" data-slide-to-"3" ></li>
+							<li data-target="#carouselHobbies" data-slide-to-"4" ></li>
+							<li data-target="#carouselHobbies" data-slide-to-"5" ></li>
+						</ol>
+
+						<div class="carousel-inner" role="listbox">
+						
+
+							<div class="carousel-item active"><img src="../../assets/images/kawhi.gif" class"img-responsive" alt="Basket-Ball">
+							<div class="carousel-caption d-none d-md-block">
+							<h5> Basket-Ball</h5> </div> </div>
+							<div class="carousel-item"><img src="../../assets/images/astronomy.gif" class"img-responsive" alt="Astronomie">
+							<div class="carousel-caption d-none d-md-block">
+							<h5> Astronomie</h5> </div></div>
+							<div class="carousel-item"><img src="../../assets/images/chatlecture.gif" class"img-responsive" alt="Lecture">
+							<div class="carousel-caption d-none d-md-block">
+							<h5> Lecture</h5> </div></div>
+							<div class="carousel-item"><img src="../../assets/images/hockey.gif" class"img-responsive" alt="Hockey">
+							<div class="carousel-caption d-none d-md-block">
+							<h5> Hockey</h5> </div></div>
+							<div class="carousel-item"><img src="../../assets/images/music.gif" class"img-responsive" alt="Musique">
+							<div class="carousel-caption d-none d-md-block">
+							<h5> Musique</h5> </div></div>
+							<div class="carousel-item"><img src="../../assets/images/poker.gif" class"img-responsive" alt="Poker">
+							<div class="carousel-caption d-none d-md-block">
+							<h5> Poker</h5></div></div>
+
+						</div>
+
+						<a class="carousel-control-prev" href="#carouselHobbies" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Précédent</span>
+							</a>
+
+						<a class="carousel-control-next" href="#carouselHobbies" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Suivant</span>
+							</a>						
+					
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card text-center">
+						<div class="card-body d-flex align-items-center d-flex justify-content-center">
+							<div class="d-flex flex-column">
+								<h1 class="card-title">
+									<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+									<br>A venir</h1>
+								<ul class="card-text">
+									<li>
+										Examen de certification Opquast en Juillet 2020
+									</li>
+									Intéréssé par:
+									<li>
+										Apprentissage du Framework Laravel
+									</li>
+									<li>
+										Apprentissage du langage Python
+									</li>
+									<li>
+										Apprentissage du CMS Wordpress
+									</li>
+									<li>
+										Apprentissage de la librairie React
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card card8 text-center">
+						<div class="card-body d-flex align-items-center d-flex justify-content-center">
+							<div class="d-flex flex-column">
+								<h1 class="card-title">
+									<i class="fa fa-language" aria-hidden="true"></i>
+									<br>Langues</h1>
+								<p class="card-text">
+									Français (Langue Maternelle)</p>
+								<div class="progress" style="height: 20px;">
+									<div class="progress-bar bg-blue" role="progressbar" style="width: 34%; " aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-white" role="progressbar" style="width: 32%; " aria-valuenow="32" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 34%; " aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="card-text mt-2">
+									Anglais (Avancé)</p>
+								<div class="progress" style="height: 8px; border-bottom-left-radius: 0; border-bottom-right-radius:0;">
+									<div class="progress-bar bg-white" role="progressbar" style="width: 37.5%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 5%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-white" role="progressbar" style="width: 37.5%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="progress" style="height: 4px; border-radius: 0;">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="progress" style="height: 8px; border-top-left-radius: 0; border-top-right-radius:0;">
+									<div class="progress-bar bg-white" role="progressbar" style="width: 37.5%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 5%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-white" role="progressbar" style="width: 37.5%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="card-text mt-2">
+									Espagnol (Basique)</p>
+								<div class="progress" style="height: 7px; border-bottom-left-radius: 0; border-bottom-right-radius:0;">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="progress" style="height: 6px; border-radius: 0;">
+									<div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="progress" style="height: 7px; border-top-left-radius: 0; border-top-right-radius:0;">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="card-text mt-2">
+									Néerlandais (Débutant)</p>
+								<div class="progress" style="height: 7px; border-bottom-left-radius: 0; border-bottom-right-radius:0;">
+									<div class="progress-bar bg-danger" role="progressbar" style="width: 15%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="progress" style="height: 6px; border-radius:0;">
+									<div class="progress-bar bg-white" role="progressbar" style="width: 15%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<div class="progress" style="height: 7px; border-top-left-radius: 0; border-top-right-radius:0;">
+									<div class="progress-bar bg-blue" role="progressbar" style="width: 15%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card text-center">
+						<iframe src="https://open.spotify.com/embed/playlist/37vcIFs1HMQa8D9S425hIh" width="fit-content" height="520" class="player" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+					</div>
+				</div>
+			</div>
+</div>
+			<div class="footer ">
+				<nav class="navbar nav2 ">
+					<div class="navbar-brand brand2 ">
+						<div class="line line-right"></div>
+						<a href="https://twitter.com/heSseMTe" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter "></i></a>
+						<a href="https://www.linkedin.com/in/gaetancanovas/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+						<a href="https://github.com/ShoveMeTender" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+						<div class="line line-left"></div>
+					</div>
+
+
+				</nav>
+
+
+			</div>
+
+		</div>
+	
+</div></div>
+
+{% endblock %}

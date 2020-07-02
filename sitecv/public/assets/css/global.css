@@ -1,0 +1,235 @@
+.container {
+    max-width: 100%;
+}
+
+/* =================================
+            #FONTS  
+================================= */
+            
+.fa-spotify, .fa-graduation-cap, .fa-language, .fa-code, .fa-briefcase, .fa-id-card, .fa-cog, .fa-lightbulb-o, .fa-gamepad {
+    font-size: 100px;
+}
+
+.fa-twitter, .fa-linkedin-in, .fa-github {
+    font-size: 40px;
+    color: white;
+    margin-left: 25px ;
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-right:5px
+}
+
+.fab, .fas {
+    font-size: 50px;
+}
+
+/* =================================
+            #BALISES  
+================================= */
+
+body {
+    background-color: #e6e6e6 ;
+}
+
+hr {
+    width: 6rem;
+    border-color: #c4cbb7;
+    border-width:medium;
+}
+
+img {
+    align-items: center;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/* =================================
+            #BANNER & NAV  
+================================= */
+
+.banner {
+    height: 400px;
+    background-image: url(../../assets/images/banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    height: 300px;
+}
+
+.btn-outline-light {
+    margin-right: 20px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin-left: 85px;
+    max-width: 112px;
+    max-height: 112px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text-aside-pic  {
+    color:white;
+    font-weight: bold;
+}
+
+.text-aside-pic h1 {
+    font-size: 60px;
+}
+
+.text-aside-pic em {
+    font-style: normal;
+}
+
+/* =================================
+            #CARDS  
+================================= */
+
+.card {
+    color: #7c8a95;
+    background-color: white;
+    margin: 1rem;
+    max-height: max-content ;
+    border-radius: 20px;
+    min-height: 520px;
+}
+
+.card2 {
+    color: white;
+    background-color: #7c8a95;
+    margin: 1rem;
+    max-height: max-content ;
+    border-radius: 20px;
+}
+
+.card8 {
+    color: white;
+    background-color: #c4cbb7;
+    margin: 1rem;
+    max-height: max-content ;
+    border-radius: 20px;
+}
+
+.btn-a-propos, .btn-projets, .btn-exp, .btn-formations {
+    color: #7c8a95;
+}
+
+.card-title {
+    
+    margin-bottom:2rem;
+}
+
+.card-footer {
+    bottom: 5%;
+    position : absolute;
+    width: 90%;
+    
+}
+
+/* =================================
+            #CAROUSEL CARD  
+================================= */
+
+.hobbies {
+    bottom: 1400%;
+    position: absolute;
+    width :100%;
+    color: #c4cbb7;
+}
+
+#carouselHobbies {
+    overflow: hidden;
+    height:100%;
+}
+
+.slider-block {
+    height:520px;
+    display:inline-block;
+}
+
+#carouselHobbies .carousel-inner {
+    height: 100%;
+}
+
+#carouselHobbies .carousel-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%; 
+}
+
+
+/* =================================
+            #SPOTIFY CARD  
+================================= */
+
+.player {
+    border-radius: 20px;
+}
+
+/* =================================
+            #FOOTER  
+================================= */
+
+.footer {
+    color: white;
+    width: 100%;
+    display :flex;
+    padding: 24px, 32px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-items: center;
+    background-color: #7c8a95;
+    height:80px;
+}
+
+.line {
+    top: calc(50% -1px /2);
+    left:0%;
+    width: 100%;
+    height: 1px;
+    opacity: 0.4;
+    position: absolute;
+    background-color: white;
+}
+
+.btn-link {
+    border:none;
+}
+
+.nav2 {
+    height:80px;
+    background-color:  #7c8a95;
+    margin: auto;
+}
+
+.brand2 {
+    margin-right: 0;
+}
+
+/* =================================
+            #MOODAL
+================================= */
+
+.no-style {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.modal-title {
+    color: #7c8a95;
+}
+
+
+
+

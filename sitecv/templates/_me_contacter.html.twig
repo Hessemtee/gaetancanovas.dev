@@ -1,0 +1,40 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<style>
+</style>
+
+<div class="modal" id="contact">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class ="modal-header">
+                <h2 class ="modal-title">Me Contacter</h2>
+            </div>
+            <div class ="modal-body">
+        
+                <div class="card">
+					<div class="card-heading">
+                    </div>
+                    <div class="card-body">
+                        {{ form_start(form)}}
+
+                        {{ form_row(form.email)}}
+                        {{ form_row(form.objet)}}
+                        {{ form_row(form.message)}}
+						
+                        
+
+                     <div class="p-t-10">
+							<button class="btn btn-secondary" type="submit">Valider</button>
+                        
+						</div>
+                        {{ form_end(form)}}  
+					</div>
+				</div>
+    
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
