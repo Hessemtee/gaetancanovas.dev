@@ -8,33 +8,35 @@
 
 	<div class="banner">
 
-		<nav class="navbar">
-			<div class="navbar-brand">
+		<nav class="navbar navtablet">
+			<div class="navbar-brand navuptablet">
 
 				<img src="../../assets/images/moicrop.jpg" width="224" height="224" class="d-inline-block align-top img-circle" alt="" loading="lazy">
 			
 			<div class="text-aside-pic">
-				<h2>Gaëtan Canovas</h2><br><h4>Développeur Back-End</h4>
+				<h1>Gaëtan Canovas</h1><br class="nomobile"><h4>Développeur Back-End</h4>
 			</div>
       </div>
-			<div>
-				<button class="btn btn-outline-light my-2 my-sm-0"  data-toggle="modal" data-target="#contact" style="bottom:0;" type="submit">ME CONTACTER</button>
+			<div class="tabletbuttons">
+				<button class="btn btn-outline-light my-2 my-sm-0 btna"  data-toggle="modal" data-target="#contact" style="bottom:0;" type="submit">ME CONTACTER</button>
 				{{ include('_me_contacter.html.twig') }}
-				<a href="{{path('download_resume')}}" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light my-2 my-sm-0" type="submit">TELECHARGER MON CV</button></a>
+				<a href="{{path('download_resume')}}" target="_blank" rel="noopener noreferrer">
+					<button class="btn btn-outline-light my-2 my-sm-0 btnb" type="submit">TELECHARGER MON CV</button>
+				</a>
 			</div>
 		</nav>
 
 
-		<div class="container">
+		<div class="container-fluid">
 			{% for message in app.flashes('success') %}
 				<div class="alert alert-success message-flash" id="test">
 					{{ message }}
 				</div>
 			{% endfor %}
 
-			<div class="card-deck m-auto d-flex justify-content-center">
+			<div class="card-deck m-auto" id="tablet-desktop">
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card text-center">
 						<div class="card-body d-flex align-items-center d-flex justify-content-center ">
 							<div class="d-flex flex-column ">
@@ -47,7 +49,7 @@
 								<p>
 									Mobilité:
 									<br>
-									France Métropolitaine, Candada<3, Belgique, Etats-Unis, Royaume-Uni, Suisse
+									France Métropolitaine, Canada, Belgique, Etats-Unis, Royaume-Uni, Suisse
 								</p>
 								<p>
 									Télétravail possible</p>
@@ -61,7 +63,7 @@
 					</div>
 				</div>
 
-				<div class="col-4 ">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card card2 row text-center d-flex">
 						<div class="card-body align-items-center d-flex justify-content-center">
 							<div class="d-flex flex-column">
@@ -101,7 +103,7 @@
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card text-center">
 						<div class="card-body three d-flex align-items-center d-flex justify-content-center">
 							<div class="d-flex flex-column">
@@ -124,15 +126,15 @@
 				</div>
 
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card text-center">
 						<div class="card-body d-flex align-items-center d-flex justify-content-center">
 							<div class="d-flex flex-column">
 								<h1 class="card-title">
 									<i class="fa fa-briefcase" aria-hidden="true"></i>
 									<br>Expériences</h1>
-								<h1 class="card-text">
-									Lead Développeur Back-End (Symfony) @ HisLife</h1>
+								<h2 class="card-text smallfont">
+									Lead Développeur Back-End (Symfony) @ HisLife</h2>
 								<div class="card-footer">
 									<button type="button" class="btn btn-outline-light btn-exp" data-toggle="modal" data-target="#experiences">
 										<i class="fa fa-eye" aria-hidden="true"></i> Voir mon parcours</button>
@@ -143,7 +145,7 @@
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card text-center">
 						<div class="card-body d-flex align-items-center d-flex justify-content-center">
 							<div class="d-flex flex-column">
@@ -166,7 +168,7 @@
 					</div>
 				</div>
 
-				<div class="col-4 slider-block">
+				<div class="col-12 col-sm-6 col-lg-4 slider-block">
 				
 					<div class="card text-center carousel slide" data-ride="carousel" id= "carouselHobbies">
 
@@ -221,28 +223,28 @@
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card text-center">
 						<div class="card-body d-flex align-items-center d-flex justify-content-center">
 							<div class="d-flex flex-column">
 								<h1 class="card-title">
 									<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 									<br>A venir</h1>
-								<ul class="card-text">
-									<li>
+								<ul class="card-text gsm">
+									<li class="gsm">
 										Examen de certification Opquast en Juillet 2020
 									</li>
 									Intéréssé par:
-									<li>
+									<li class="gsm">
 										Apprentissage du Framework Laravel
 									</li>
-									<li>
+									<li class="gsm">
 										Apprentissage du langage Python
 									</li>
-									<li>
+									<li class="gsm">
 										Apprentissage du CMS Wordpress
 									</li>
-									<li>
+									<li class="gsm">
 										Apprentissage de la librairie React
 									</li>
 								</ul>
@@ -252,7 +254,7 @@
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card card8 text-center">
 						<div class="card-body d-flex align-items-center d-flex justify-content-center">
 							<div class="d-flex flex-column">
@@ -309,7 +311,7 @@
 					</div>
 				</div>
 
-				<div class="col-4">
+				<div class="col-12 col-sm-6 col-lg-4">
 					<div class="card text-center">
 						<iframe src="https://open.spotify.com/embed/playlist/37vcIFs1HMQa8D9S425hIh" width="fit-content" height="520" class="player" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 

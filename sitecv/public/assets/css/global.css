@@ -83,12 +83,9 @@ p {
 }
 
 .text-aside-pic h1 {
-    font-size: 60px;
+    font-size: 24px;
 }
 
-.text-aside-pic em {
-    font-style: normal;
-}
 
 /* =================================
             #CARDS  
@@ -230,6 +227,109 @@ p {
     color: #7c8a95;
 }
 
+.close {
+    background-color: #7c8a95;
+}
+
+/*==================================
+            #MEDIA QUERIES
+==================================*/
+
+@media screen and (max-width: 575px)
+{
+    .img-circle {
+        border-radius: 50%;
+        margin-left: 25px;
+        max-width: 70px;
+        max-height: 70px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .text-aside-pic  {
+        
+        font-weight: bold;
+        color :white;
+        
+    }
+    
+    .text-aside-pic h1 {
+        font-size: 24px;
+        margin-top: 8px;
+        
+        
+    }
+    
+    .text-aside-pic h4 {
+        font-size: 16px;
+    }
+    
+    .nomobile{
+        display: none;
+        }
+
+    .banner {
+            height: 400px;
+            background-image: url(../../assets/images/banner.jpg);
+            width: 100%;
+            background-size: auto;
+            background-position: left;
+          }
+
+    .smallfont {
+            font-size: 22px;
+    }
+
+    
+    .gsm {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    
+        .fa-twitter, .fa-linkedin-in, .fa-github {
+            font-size: 30px;
+            color: white;
+            margin-left: 25px ;
+            margin-right: 25px;
+            margin-top: 5px;
+            margin-right:5px
+        }
+}
+
+@media screen and (min-width:576px)
+{
+    #tablet-desktop {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:991px)
+{
+    
+
+    .navuptablet {
+        margin-top: 125px;
+        margin-left: -40px;
+       
+    }
+
+    .tabletbuttons {
+        margin-left:40px;
+        margin-top: 20px;
+    }
+
+    .navtablet {
+        display: table-cell;
+    }
 
 
+    .text-aside-pic h1 {
+        font-size: 30px;
+    }
+    .text-aside-pic h4 {
+        font-size: 20px;
+    }
+   
+}
 
