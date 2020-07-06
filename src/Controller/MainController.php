@@ -31,7 +31,7 @@ class MainController extends AbstractController
 
             $email = (new Email())
                     ->from($email)
-                    ->to('gaetancanovas@gmail.com')
+                    ->to('contact@gaetancanovas.dev')
                     ->subject($objet)
                     ->html('<h1>Message de '.$email.'<p>: '.$message.'</p>');
 
