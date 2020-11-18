@@ -55,7 +55,7 @@ class MainController extends AbstractController
     public function download ()
     {
         return $this->file(
-            '/var/www/html/sitecv/public/assets/downloads/Gaetan_Canovas_CV.pdf',
+            '/var/www/html/gaetancanovas.dev/public/assets/downloads/Gaetan_Canovas_CV.pdf',
             null,
             ResponseHeaderBag::DISPOSITION_ATTACHMENT
         );
