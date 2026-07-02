@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "nuxt typecheck",
+    "check:content": "node scripts/check-content.mjs",
+    "seo:sitemap": "node scripts/generate-sitemap.mjs",
+    "clean": "rm -rf .nuxt .output node_modules package-lock.json"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "latest",
+    "nuxt": "latest",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}

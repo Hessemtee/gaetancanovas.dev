@@ -1,0 +1,41 @@
+{
+  "site": {
+    "name": "gaetancanovas.dev"
+  },
+  "nav": {
+    "work": "Work",
+    "lab": "Lab",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "cv": "Resume",
+    "privacy": "Privacy"
+  },
+  "cta": {
+    "viewWork": "View work",
+    "readBlog": "Read the blog",
+    "contact": "Contact me",
+    "viewAllWork": "View all work",
+    "exploreLab": "Explore the lab",
+    "readArticles": "Read articles",
+    "backToTop": "Back to top",
+    "readMore": "Read more",
+    "downloadCv": "Download resume",
+    "viewCv": "View resume"
+  },
+  "filters": {
+    "all": "All",
+    "public": "Public",
+    "experience": "Experience",
+    "playbook": "Playbook",
+    "finished": "Finished project",
+    "prototype": "Prototype",
+    "concept": "Concept",
+    "manifesto": "Manifesto",
+    "ai": "AI",
+    "desktop": "Desktop"
+  },
+  "footer": {
+    "copyright": "© 2026 Gaëtan Canovas"
+  }
+}

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://gaetancanovas.dev/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/chantiers</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/work</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/atelier</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/atelier" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/lab" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/atelier" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/lab</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/atelier" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/lab" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/atelier" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/blog</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/blog</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/a-propos</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/a-propos" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/a-propos" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/about</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/a-propos" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/a-propos" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/contact</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/contact" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/contact" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/contact</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/contact" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/contact" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/cv</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/cv" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/resume" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/cv" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/resume</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/cv" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/resume" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/cv" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/confidentialite</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/confidentialite" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/privacy</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/confidentialite" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/confidentialite" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/chantiers/front-end-fort-trafic</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/front-end-fort-trafic" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/high-traffic-front-end" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/front-end-fort-trafic" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/work/high-traffic-front-end</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/front-end-fort-trafic" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/high-traffic-front-end" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/front-end-fort-trafic" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/chantiers/moderniser-front</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/moderniser-front" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/modernizing-existing-front-end" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/moderniser-front" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/work/modernizing-existing-front-end</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/moderniser-front" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/modernizing-existing-front-end" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/moderniser-front" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/chantiers/backlog-jv</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/backlog-jv" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/game-backlog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/backlog-jv" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/work/game-backlog</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/backlog-jv" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/game-backlog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/backlog-jv" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/chantiers/tnsfc</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/tnsfc" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/tnsfc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/tnsfc" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/work/tnsfc</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/tnsfc" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/tnsfc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/tnsfc" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/chantiers/file-requester</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/file-requester" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/file-requester" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/file-requester" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/work/file-requester</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/chantiers/file-requester" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/work/file-requester" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/chantiers/file-requester" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/blog/moderniser-un-projet-front-sans-tout-casser</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/moderniser-un-projet-front-sans-tout-casser" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/modernizing-a-front-end-project-without-breaking-everything" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/moderniser-un-projet-front-sans-tout-casser" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/blog/modernizing-a-front-end-project-without-breaking-everything</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/moderniser-un-projet-front-sans-tout-casser" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/modernizing-a-front-end-project-without-breaking-everything" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/moderniser-un-projet-front-sans-tout-casser" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/blog/ia-outil-de-clarification</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/ia-outil-de-clarification" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/ai-as-a-clarification-tool" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/ia-outil-de-clarification" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/blog/ai-as-a-clarification-tool</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/ia-outil-de-clarification" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/ai-as-a-clarification-tool" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/ia-outil-de-clarification" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/blog/pourquoi-je-garde-un-atelier-idees</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/pourquoi-je-garde-un-atelier-idees" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/why-i-keep-an-idea-workshop" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/pourquoi-je-garde-un-atelier-idees" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/blog/why-i-keep-an-idea-workshop</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/pourquoi-je-garde-un-atelier-idees" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/why-i-keep-an-idea-workshop" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/pourquoi-je-garde-un-atelier-idees" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/blog/site-a-fort-trafic-performance</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/site-a-fort-trafic-performance" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/what-high-traffic-websites-teach-about-performance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/site-a-fort-trafic-performance" />
+  </url>
+  <url>
+    <loc>https://gaetancanovas.dev/en/blog/what-high-traffic-websites-teach-about-performance</loc>
+    <lastmod>2026-06-29</lastmod>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://gaetancanovas.dev/blog/site-a-fort-trafic-performance" />
+    <xhtml:link rel="alternate" hreflang="en-US" href="https://gaetancanovas.dev/en/blog/what-high-traffic-websites-teach-about-performance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://gaetancanovas.dev/blog/site-a-fort-trafic-performance" />
+  </url>
+</urlset>

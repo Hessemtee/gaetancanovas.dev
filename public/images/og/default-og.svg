@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">gaetancanovas.dev</title>
+  <desc id="desc">Front-end, product, performance and applied AI.</desc>
+  <rect width="1200" height="630" fill="#f8f5ee"/>
+  <circle cx="230" cy="120" r="260" fill="#10251c" opacity="0.10"/>
+  <circle cx="1050" cy="40" r="280" fill="#c36f32" opacity="0.12"/>
+  <rect x="86" y="86" width="1028" height="458" rx="42" fill="#fffaf0" stroke="#ded8cc" stroke-width="2"/>
+  <text x="130" y="185" font-family="Inter, system-ui, sans-serif" font-size="26" letter-spacing="5" fill="#476050">FRONT-END · PRODUIT · PERFORMANCE</text>
+  <text x="130" y="300" font-family="Georgia, serif" font-size="78" font-weight="700" fill="#101410">Gaëtan Canovas</text>
+  <text x="130" y="370" font-family="Inter, system-ui, sans-serif" font-size="34" fill="#6f6a61">Développeur front-end orienté produit, performance et modernisation.</text>
+  <text x="130" y="450" font-family="Inter, system-ui, sans-serif" font-size="26" fill="#10251c">gaetancanovas.dev</text>
+</svg>

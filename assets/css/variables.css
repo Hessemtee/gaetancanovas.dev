@@ -1,0 +1,40 @@
+:root {
+  --color-bg: #f8f5ee;
+  --color-bg-strong: #efe8da;
+  --color-surface: #ffffff;
+  --color-surface-muted: #fbf8f1;
+  --color-surface-soft: #f2eee4;
+  --color-text: #101410;
+  --color-muted: #6f6a61;
+  --color-muted-strong: #4d4941;
+  --color-border: #ded8cc;
+  --color-border-strong: #cfc6b7;
+  --color-primary: #10251c;
+  --color-primary-hover: #17382b;
+  --color-primary-soft: #dfe8d7;
+  --color-primary-wash: #eef4e8;
+  --color-accent: #c36f32;
+  --color-accent-soft: #f3dfca;
+  --color-danger: #8a1f11;
+  --color-focus: #7b4f2b;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --radius-xs: 0.45rem;
+  --radius-sm: 0.65rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-2xl: 2.5rem;
+
+  --container: 1120px;
+  --container-narrow: 820px;
+  --header-height: 76px;
+
+  --shadow-soft: 0 20px 60px rgb(16 37 28 / 0.08);
+  --shadow-card: 0 14px 36px rgb(16 37 28 / 0.07);
+  --shadow-strong: 0 28px 80px rgb(16 37 28 / 0.15);
+  --shadow-glow: 0 22px 68px rgb(195 111 50 / 0.12), 0 14px 44px rgb(16 37 28 / 0.08);
+}

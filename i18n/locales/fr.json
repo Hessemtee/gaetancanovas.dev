@@ -1,0 +1,41 @@
+{
+  "site": {
+    "name": "gaetancanovas.dev"
+  },
+  "nav": {
+    "work": "Chantiers",
+    "lab": "Atelier",
+    "blog": "Blog",
+    "about": "À propos",
+    "contact": "Contact",
+    "cv": "CV",
+    "privacy": "Confidentialité"
+  },
+  "cta": {
+    "viewWork": "Voir les chantiers",
+    "readBlog": "Lire le blog",
+    "contact": "Me contacter",
+    "viewAllWork": "Voir tous les chantiers",
+    "exploreLab": "Explorer l’atelier",
+    "readArticles": "Lire les articles",
+    "backToTop": "Retour en haut",
+    "readMore": "Lire la suite",
+    "downloadCv": "Télécharger le CV",
+    "viewCv": "Voir le CV"
+  },
+  "filters": {
+    "all": "Tous",
+    "public": "Public",
+    "experience": "Retour d’expérience",
+    "playbook": "Playbook",
+    "finished": "Projet terminé",
+    "prototype": "Prototype",
+    "concept": "Concept",
+    "manifesto": "Manifeste",
+    "ai": "IA",
+    "desktop": "Desktop"
+  },
+  "footer": {
+    "copyright": "© 2026 Gaëtan Canovas"
+  }
+}
