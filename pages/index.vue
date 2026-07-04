@@ -24,16 +24,27 @@ const hero = computed(() => currentLocale.value === 'fr'
     })
 
 
-const heroTags = [
-  { label: 'Vue / Nuxt', icon: 'code' },
-  { label: 'React', icon: 'code' },
-  { label: 'SSR', icon: 'bolt' },
-  { label: 'SEO technique', icon: 'search' },
-  { label: 'Performance', icon: 'gauge' },
-  { label: 'Migrations', icon: 'hammer' },
-  { label: 'Produit', icon: 'layers' },
-  { label: 'IA appliquée', icon: 'sparkles' }
-] as const
+const heroTags = computed(() => currentLocale.value === 'fr'
+  ? [
+      { label: 'Vue / Nuxt', icon: 'code' },
+      { label: 'React', icon: 'code' },
+      { label: 'SSR', icon: 'bolt' },
+      { label: 'SEO technique', icon: 'search' },
+      { label: 'Performance', icon: 'gauge' },
+      { label: 'Migrations', icon: 'hammer' },
+      { label: 'Produit', icon: 'layers' },
+      { label: 'IA appliquée', icon: 'sparkles' }
+    ]
+  : [
+      { label: 'Vue / Nuxt', icon: 'code' },
+      { label: 'React', icon: 'code' },
+      { label: 'SSR', icon: 'bolt' },
+      { label: 'Technical SEO', icon: 'search' },
+      { label: 'Performance', icon: 'gauge' },
+      { label: 'Migrations', icon: 'hammer' },
+      { label: 'Product', icon: 'layers' },
+      { label: 'Applied AI', icon: 'sparkles' }
+    ])
 
 
 const heroStartHere = computed(() => {
