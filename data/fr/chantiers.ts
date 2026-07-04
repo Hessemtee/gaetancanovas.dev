@@ -23,7 +23,7 @@ export const chantiersFr = [
     type: 'Application desktop terminée',
     category: 'finished',
     icon: 'gamepad',
-    excerpt: 'Une app Electron terminée pour organiser une bibliothèque de jeux vidéo, avec page prête pour vidéo et captures commentées.',
+    excerpt: 'Une app Electron terminée pour organiser une bibliothèque de jeux vidéo avec statuts, filtres et fiches détaillées.',
     featured: true
   },
   {

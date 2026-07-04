@@ -22,26 +22,32 @@ const filteredItems = computed(() => activeFilter.value === 'all' ? items.value 
 
 const copy = computed(() => currentLocale.value === 'fr'
   ? {
-      description: 'Des terrains de travail plutôt que des vitrines forcées. Chaque page précise ce qui peut réellement être montré.',
+      description: 'Retours d’expérience, méthodes et projets démontrables autour du front-end, de la performance et du produit.',
+      featuredEyebrow: 'Sélection',
+      indexEyebrow: 'Index',
+      secondaryEyebrow: 'Compléments',
       featuredTitle: 'À lire en premier',
-      featuredText: 'Les contenus les plus utiles pour comprendre mon positionnement : retour d’expérience, playbook et projet terminé.',
+      featuredText: 'Une sélection pour entrer rapidement dans les sujets les plus représentatifs.',
       exploreTitle: 'Explorer par type',
-      exploreText: 'Les filtres permettent de creuser sans transformer la page en liste interminable.',
+      exploreText: 'Filtrer les contenus par format : retour d’expérience, méthode, projet terminé ou exploration.',
       compactTitle: 'Autres chantiers',
-      compactText: 'Des prototypes ou concepts qui complètent le socle principal.',
-      ruleTitle: 'Règle éditoriale',
-      ruleText: 'Cette page met d’abord en avant les preuves les plus solides. Le reste reste accessible, mais en second niveau.'
+      compactText: 'Des prototypes et concepts encore utiles pour comprendre la démarche.',
+      ruleTitle: 'À garder en tête',
+      ruleText: 'Certains contenus sont anonymisés ou encore exploratoires ; leur statut est indiqué clairement.'
     }
   : {
-      description: 'Working grounds rather than forced showcases. Each page makes clear what can actually be shown.',
+      description: 'Experience notes, methods and demonstrable projects around front-end engineering, performance and product.',
+      featuredEyebrow: 'Selected',
+      indexEyebrow: 'Index',
+      secondaryEyebrow: 'More',
       featuredTitle: 'Start here',
-      featuredText: 'The most useful pieces to understand my positioning: experience note, playbook and finished project.',
+      featuredText: 'A short selection to quickly enter the most representative topics.',
       exploreTitle: 'Explore by type',
-      exploreText: 'Filters let you dig without turning the page into an endless list.',
+      exploreText: 'Filter content by format: experience note, method, finished project or exploration.',
       compactTitle: 'Other work',
-      compactText: 'Prototypes or concepts that complement the main foundation.',
-      ruleTitle: 'Editorial rule',
-      ruleText: 'This page highlights the strongest proof first. Everything else remains accessible, but one level lower.'
+      compactText: 'Prototypes and concepts that help explain the broader approach.',
+      ruleTitle: 'Good to know',
+      ruleText: 'Some pieces are anonymized or still exploratory; their status is made explicit.'
     })
 
 useSiteSeo({
@@ -63,7 +69,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Featured</p>
+              <p class="eyebrow">{{ copy.featuredEyebrow }}</p>
               <h2>{{ copy.featuredTitle }}</h2>
             </div>
             <p>{{ copy.featuredText }}</p>
@@ -86,7 +92,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Index</p>
+              <p class="eyebrow">{{ copy.indexEyebrow }}</p>
               <h2>{{ copy.exploreTitle }}</h2>
             </div>
             <p>{{ copy.exploreText }}</p>
@@ -120,7 +126,7 @@ useSiteSeo({
         <div v-if="secondaryItems.length" class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Secondary</p>
+              <p class="eyebrow">{{ copy.secondaryEyebrow }}</p>
               <h2>{{ copy.compactTitle }}</h2>
             </div>
             <p>{{ copy.compactText }}</p>

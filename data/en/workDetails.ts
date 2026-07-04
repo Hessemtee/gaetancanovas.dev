@@ -141,11 +141,11 @@ export const workDetailsEn: DetailPage[] = [
       { label: 'Status', value: 'Finished desktop app' },
       { label: 'Format', value: 'Electron, local use' },
       { label: 'Data', value: 'Personal library, filters, statuses' },
-      { label: 'Next proof', value: 'Real screenshots + short video' }
+      { label: 'To add', value: 'Real screenshots + short video' }
     ],
     media: {
-      title: 'Visual proof to add',
-      description: 'The page is ready for real screenshots, a short video and, later, a simplified web demo with fake data. No fake screenshot is published in this version.',
+      title: 'Visual demo',
+      description: 'This page will host real app screenshots, a short demo video and, later, an optional simplified web demo with fake data.',
       items: [
         {
           title: 'Short video',
@@ -155,12 +155,12 @@ export const workDetailsEn: DetailPage[] = [
         {
           title: 'Commented screenshots',
           kind: 'screenshot',
-          description: 'Slots for 4 to 6 screenshots: main board, game detail, filters, editing, statuses and possible stats.'
+          description: 'Planned screenshots: main board, game detail, filters, editing, statuses and possible stats.'
         },
         {
           title: 'Simplified web demo',
           kind: 'demo',
-          description: 'V1.5 option: a browser version with fake data to explain the product without downloading the desktop app.'
+          description: 'Future option: a browser version with fake data to explain the product without downloading the desktop app.'
         }
       ]
     },
@@ -207,8 +207,8 @@ export const workDetailsEn: DetailPage[] = [
         ]
       },
       {
-        title: 'Before V1 publication',
-        body: ['The page still needs real assets: screenshots, short video and a possible poster. The structure is ready, but it is better not to publish fictional visuals for a project presented as finished.']
+        title: 'Visuals to come',
+        body: ['Screenshots, the short video and a possible poster will be added from real app exports. The project is finished; the public presentation should stay as honest as the product.']
       }
     ]
   },
@@ -238,7 +238,7 @@ export const workDetailsEn: DetailPage[] = [
         ]
       },
       {
-        title: 'What this work can prove',
+        title: 'What this work can show',
         body: ['Once materialized, this prototype can show the ability to think beyond a page: information architecture, editorial components, sports data, commercial hierarchy and recurring supporter experience.']
       }
     ]

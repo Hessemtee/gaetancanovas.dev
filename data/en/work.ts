@@ -23,7 +23,7 @@ export const workEn = [
     type: 'Finished desktop app',
     category: 'finished',
     icon: 'gamepad',
-    excerpt: 'A finished Electron app to organize a video game library, with a page ready for video and commented screenshots.',
+    excerpt: 'A finished Electron app to organize a video game library with statuses, filters and detailed views.',
     featured: true
   },
   {

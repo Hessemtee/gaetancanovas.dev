@@ -4,8 +4,8 @@ import { staticPaths, type LocaleCode } from '~/utils/localizedPaths'
 const { locale, t } = useI18n()
 const currentLocale = computed(() => locale.value as LocaleCode)
 const footerCopy = computed(() => currentLocale.value === 'fr'
-  ? 'Site personnel professionnel : court, rapide, lisible. La home oriente, les pages dédiées permettent de creuser.'
-  : 'Personal professional site: short, fast and readable. The home guides, dedicated pages let you go deeper.')
+  ? 'Front-end, produit, performance. Notes, chantiers et explorations autour d’interfaces web plus lisibles.'
+  : 'Front-end, product, performance. Notes, work and explorations around clearer web interfaces.')
 </script>
 
 <template>
@@ -14,6 +14,9 @@ const footerCopy = computed(() => currentLocale.value === 'fr'
       <div class="app-footer__intro">
         <NuxtLink :to="staticPaths.home[currentLocale]" class="app-footer__brand">
           gaetancanovas<span>.dev</span>
+          <span class="brand-mark" aria-hidden="true">
+  <img src="/favicon-32.png" alt="" class="brand-mark__image" />
+</span>
         </NuxtLink>
         <p>{{ footerCopy }}</p>
       </div>
@@ -66,11 +69,16 @@ const footerCopy = computed(() => currentLocale.value === 'fr'
   font-weight: 850;
   color: var(--color-text);
   letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
 }
 .app-footer__brand span {
   font-family: var(--font-mono);
   color: var(--color-primary);
   font-size: 0.84rem;
+}
+.app-footer__brand .brand-mark {
+  margin-left: 0.4rem;
 }
 .app-footer__nav {
   display: flex;

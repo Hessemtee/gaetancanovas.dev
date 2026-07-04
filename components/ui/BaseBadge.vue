@@ -31,6 +31,8 @@ withDefaults(defineProps<{
   line-height: 1;
   white-space: nowrap;
   box-shadow: 0 1px 0 rgb(16 37 28 / 0.04), inset 0 1px 0 rgb(255 255 255 / 0.65);
+  white-space: normal;
+  max-width: 100%;
 }
 .base-badge--primary {
   border-color: rgb(16 37 28 / 0.18);

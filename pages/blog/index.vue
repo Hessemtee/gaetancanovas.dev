@@ -22,28 +22,34 @@ const filteredPosts = computed(() => activeCategory.value === 'all' ? posts.valu
 
 const copy = computed(() => currentLocale.value === 'fr'
   ? {
-      description: 'Des notes techniques et réflexions de dev. Pas un blog d’actualité : plutôt un espace pour clarifier des méthodes, formaliser des idées et partager des arbitrages.',
+      description: 'Notes techniques et réflexions de dev pour clarifier des méthodes, formaliser des idées et partager des arbitrages.',
+      featuredEyebrow: 'Sélection',
+      latestEyebrow: 'Récent',
+      categoriesEyebrow: 'Thèmes',
       featuredTitle: 'À lire en premier',
-      featuredText: 'Trois textes pour comprendre le ton : technique, IA appliquée et atelier d’idées.',
+      featuredText: 'Trois textes pour entrer dans les sujets principaux : modernisation, IA appliquée et atelier d’idées.',
       latestTitle: 'Dernières notes',
-      latestText: 'Une liste compacte pour parcourir les articles sans transformer le blog en flux infini.',
+      latestText: 'Parcourir les articles récents dans un format compact.',
       categoriesTitle: 'Explorer par thème',
-      categoriesText: 'Le blog doit rester une bibliothèque éditorialisée, pas une timeline.',
+      categoriesText: 'Filtrer les articles par thème : technique, produit, performance ou IA appliquée.',
       all: 'Tous',
-      ruleTitle: 'Règle du blog',
-      ruleText: 'Peu d’articles, mais des textes utiles : clarifier une méthode, un arbitrage ou une idée.'
+      ruleTitle: 'Ligne éditoriale',
+      ruleText: 'Des textes courts ou moyens, écrits pour clarifier une méthode, un arbitrage ou une idée.'
     }
   : {
-      description: 'Technical notes and developer reflections. Not a news blog: a space to clarify methods, formalize ideas and share tradeoffs.',
+      description: 'Technical notes and developer reflections to clarify methods, formalize ideas and share tradeoffs.',
+      featuredEyebrow: 'Selected',
+      latestEyebrow: 'Latest',
+      categoriesEyebrow: 'Themes',
       featuredTitle: 'Start here',
-      featuredText: 'Three pieces to understand the tone: engineering, applied AI and the idea workshop.',
+      featuredText: 'Three pieces to enter the main topics: modernization, applied AI and the idea workshop.',
       latestTitle: 'Latest notes',
-      latestText: 'A compact list to browse articles without turning the blog into an infinite feed.',
+      latestText: 'Browse recent articles in a compact format.',
       categoriesTitle: 'Explore by theme',
-      categoriesText: 'The blog should remain an editorialized library, not a timeline.',
+      categoriesText: 'Filter articles by theme: engineering, product, performance or applied AI.',
       all: 'All',
-      ruleTitle: 'Blog rule',
-      ruleText: 'Fewer articles, but useful ones: clarify a method, a tradeoff or an idea.'
+      ruleTitle: 'Editorial line',
+      ruleText: 'Short or mid-length pieces written to clarify a method, a tradeoff or an idea.'
     })
 
 useSiteSeo({
@@ -65,7 +71,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Featured</p>
+              <p class="eyebrow">{{ copy.featuredEyebrow }}</p>
               <h2>{{ copy.featuredTitle }}</h2>
             </div>
             <p>{{ copy.featuredText }}</p>
@@ -88,7 +94,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Latest</p>
+              <p class="eyebrow">{{ copy.latestEyebrow }}</p>
               <h2>{{ copy.latestTitle }}</h2>
             </div>
             <p>{{ copy.latestText }}</p>
@@ -110,7 +116,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Themes</p>
+              <p class="eyebrow">{{ copy.categoriesEyebrow }}</p>
               <h2>{{ copy.categoriesTitle }}</h2>
             </div>
             <p>{{ copy.categoriesText }}</p>

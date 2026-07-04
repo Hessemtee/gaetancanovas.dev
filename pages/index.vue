@@ -27,12 +27,12 @@ const hero = computed(() => currentLocale.value === 'fr'
 const heroTags = [
   { label: 'Vue / Nuxt', icon: 'code' },
   { label: 'React', icon: 'code' },
-  { label: 'SSR', icon: 'layers' },
+  { label: 'SSR', icon: 'bolt' },
   { label: 'SEO technique', icon: 'search' },
   { label: 'Performance', icon: 'gauge' },
   { label: 'Migrations', icon: 'hammer' },
-  { label: 'Produit', icon: 'sparkles' },
-  { label: 'IA appliquée', icon: 'bolt' }
+  { label: 'Produit', icon: 'layers' },
+  { label: 'IA appliquée', icon: 'sparkles' }
 ] as const
 
 
@@ -42,35 +42,35 @@ const heroStartHere = computed(() => {
   return {
     title: isFr ? 'Par où commencer ?' : 'Where to start?',
     description: isFr
-      ? 'Trois portes d’entrée pour comprendre vite le site, sans transformer la home en listing interminable.'
-      : 'Three entry points to understand the site quickly, without turning the home into an endless list.',
+      ? 'Trois entrées pour aller à l’essentiel.'
+      : 'Three paths to the essentials.',
     items: [
       {
         icon: 'gauge',
-        label: isFr ? 'Voir une preuve' : 'See proof',
+        label: isFr ? 'Voir le concret' : 'See concrete work',
         title: isFr ? 'Chantiers' : 'Work',
-        text: isFr ? 'Retours d’expérience, playbooks et projets terminés.' : 'Experience notes, playbooks and finished projects.',
+        text: isFr ? 'Expériences, méthodes et projets aboutis.' : 'Experience notes, methods and completed projects.',
         to: staticPaths.work[currentLocale.value]
       },
       {
         icon: 'brain',
         label: isFr ? 'Explorer' : 'Explore',
         title: isFr ? 'Atelier' : 'Lab',
-        text: isFr ? 'Prototypes, concepts, manifestes et recherches.' : 'Prototypes, concepts, manifestos and research.',
+        text: isFr ? 'Prototypes, concepts et recherches en cours.' : 'Prototypes, concepts and ongoing research.',
         to: staticPaths.lab[currentLocale.value]
       },
       {
         icon: 'pen',
         label: isFr ? 'Lire' : 'Read',
         title: 'Blog',
-        text: isFr ? 'Notes techniques, produit, IA appliquée et philosophie dev.' : 'Technical notes, product thinking, applied AI and dev philosophy.',
+        text: isFr ? 'Notes techniques, produit et IA appliquée.' : 'Technical notes, product thinking and applied AI.',
         to: staticPaths.blog[currentLocale.value]
       }
     ],
-    ruleTitle: isFr ? 'Règle du site' : 'Site rule',
+    ruleTitle: isFr ? 'En résumé' : 'In short',
     rule: isFr
-      ? 'La home oriente. Les pages dédiées prouvent, classent et permettent de creuser.'
-      : 'The home guides. Dedicated pages prove, organize and let you go deeper.'
+      ? 'Des chantiers concrets, un atelier d’idées et des notes pour expliquer les choix.'
+      : 'Concrete work, an idea lab and notes to explain decisions.'
   }
 })
 
@@ -154,7 +154,7 @@ useSiteSeo({
           <div class="start-here__header">
             <span class="start-here__kicker">
               <InlineIcon name="layers" :size="15" />
-              {{ currentLocale === 'fr' ? 'Navigation courte' : 'Short navigation' }}
+              {{ currentLocale === 'fr' ? 'Accès rapide' : 'Quick access' }}
             </span>
             <h2 id="start-here-title">{{ heroStartHere.title }}</h2>
             <p>{{ heroStartHere.description }}</p>
@@ -200,7 +200,7 @@ useSiteSeo({
       <div class="container">
         <SectionHeader
           :title="t('nav.work')"
-          :description="currentLocale === 'fr' ? 'Des retours d’expérience, playbooks et projets concrets. Pas des vitrines artificielles.' : 'Experience notes, playbooks and concrete projects. Not artificial showcases.'"
+          :description="currentLocale === 'fr' ? 'Des retours d’expérience, méthodes et projets concrets, avec un niveau de détail adapté à ce qui peut être montré.' : 'Experience notes, methods and concrete projects, with the right level of detail for what can be shown.'"
         />
         <div class="grid grid--3">
           <ChantierCard
@@ -222,7 +222,7 @@ useSiteSeo({
       <div class="container">
         <SectionHeader
           :title="t('nav.lab')"
-          :description="currentLocale === 'fr' ? 'Prototypes, concepts, manifestes et recherches. Tout n’est pas un produit fini : l’atelier montre la démarche.' : 'Prototypes, concepts, manifestos and research. Not everything is a finished product: the lab shows the process.'"
+          :description="currentLocale === 'fr' ? 'Prototypes, concepts et recherches en cours. Tout n’est pas un produit fini : l’atelier montre la démarche.' : 'Prototypes, concepts and ongoing research. Not everything is a finished product: the lab shows the process.'"
         />
         <div class="grid grid--4">
           <AtelierCard v-for="item in atelier" :key="item.title" :title="item.title" :type="item.type" :excerpt="item.excerpt" :icon="item.icon" />
@@ -246,7 +246,7 @@ useSiteSeo({
 
     <section class="section">
       <div class="container contact-cta card">
-        <h2 class="section-title">{{ currentLocale === 'fr' ? 'Construisons quelque chose de clair, rapide et utile.' : 'Let’s build something clear, fast and useful.' }}</h2>
+        <h2 class="section-title">{{ currentLocale === 'fr' ? 'Construisons ensemble quelque chose de clair, rapide et utile.' : 'Let’s build together something clear, fast and useful.' }}</h2>
         <p class="lead">{{ currentLocale === 'fr' ? 'Pour une mission front-end, une modernisation de projet, un prototype ou une discussion autour d’un produit web.' : 'For a front-end mission, project modernization, prototype or product discussion.' }}</p>
         <BaseButton :to="staticPaths.contact[currentLocale]">{{ t('cta.contact') }}</BaseButton>
       </div>

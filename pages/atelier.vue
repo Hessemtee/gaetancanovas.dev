@@ -39,26 +39,32 @@ const groupedItems = computed(() => {
 
 const copy = computed(() => currentLocale.value === 'fr'
   ? {
-      description: 'Tout n’est pas un produit. L’atelier sert à documenter une démarche : repérer une friction, cadrer une idée, tester un prototype, explorer un usage de l’IA ou décider qu’un projet ne mérite pas d’aller plus loin.',
+      description: 'Prototypes, concepts et recherches autour du web, du produit et de l’IA appliquée. Certaines idées deviendront des projets ; d’autres resteront des notes utiles.',
+      priorityEyebrow: 'Sélection',
+      indexEyebrow: 'Index',
+      groupedEyebrow: 'Familles',
       priorityTitle: 'À explorer en priorité',
-      priorityText: 'Quelques points d’entrée sélectionnés. Le reste est classé plus bas pour éviter l’effet catalogue.',
+      priorityText: 'Les objets les plus concrets ou les plus représentatifs.',
       filtersTitle: 'Tous les objets de l’atelier',
-      filtersText: 'Un index filtrable pour retrouver un concept, une recherche ou un prototype sans tout charger mentalement d’un coup.',
+      filtersText: 'Filtrer les idées par statut ou par nature : prototype, concept, manifeste, recherche IA.',
       groupedTitle: 'Par familles',
-      groupedText: 'Une lecture plus calme que la grille complète : chaque famille garde ses objets à leur place.',
-      ruleTitle: 'Règle atelier',
-      ruleText: 'L’atelier montre la démarche, pas une liste de produits prétendument finis.'
+      groupedText: 'Une autre lecture des objets de l’atelier, regroupés par nature.',
+      ruleTitle: 'Un espace d’exploration',
+      ruleText: 'Certaines idées deviendront des projets, d’autres resteront des notes. L’intérêt est de les rendre discutables.'
     }
   : {
-      description: 'Not everything is a product. The lab documents a process: spotting friction, framing an idea, testing a prototype, exploring an AI use case or deciding a project should not go further.',
+      description: 'Prototypes, concepts and research around the web, product thinking and applied AI. Some ideas may become projects; others remain useful notes.',
+      priorityEyebrow: 'Selected',
+      indexEyebrow: 'Index',
+      groupedEyebrow: 'Families',
       priorityTitle: 'Explore first',
-      priorityText: 'A few selected entry points. Everything else is organized below to avoid the catalogue effect.',
+      priorityText: 'The most concrete or representative items.',
       filtersTitle: 'All lab objects',
-      filtersText: 'A filterable index to find a concept, research topic or prototype without loading everything at once.',
+      filtersText: 'Filter ideas by status or type: prototype, concept, manifesto, AI research.',
       groupedTitle: 'By family',
-      groupedText: 'A calmer read than the full grid: each family keeps its objects in the right place.',
-      ruleTitle: 'Lab rule',
-      ruleText: 'The lab shows the process, not a list of supposedly finished products.'
+      groupedText: 'Another view of the lab items, grouped by nature.',
+      ruleTitle: 'Exploration space',
+      ruleText: 'Some ideas may become projects; others will remain notes. The goal is to make them discussable.'
     })
 
 useSiteSeo({
@@ -80,7 +86,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Featured</p>
+              <p class="eyebrow">{{ copy.priorityEyebrow }}</p>
               <h2>{{ copy.priorityTitle }}</h2>
             </div>
             <p>{{ copy.priorityText }}</p>
@@ -101,7 +107,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Index</p>
+              <p class="eyebrow">{{ copy.indexEyebrow }}</p>
               <h2>{{ copy.filtersTitle }}</h2>
             </div>
             <p>{{ copy.filtersText }}</p>
@@ -134,7 +140,7 @@ useSiteSeo({
         <div class="index-block">
           <div class="index-block__header">
             <div>
-              <p class="eyebrow">Families</p>
+              <p class="eyebrow">{{ copy.groupedEyebrow }}</p>
               <h2>{{ copy.groupedTitle }}</h2>
             </div>
             <p>{{ copy.groupedText }}</p>
