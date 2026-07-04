@@ -33,7 +33,9 @@ watch(() => route.fullPath, () => {
   <header class="app-header">
     <div class="container app-header__inner">
       <NuxtLink :to="staticPaths.home[currentLocale]" class="app-header__brand" aria-label="gaetancanovas.dev">
-        <span class="app-header__brand-mark">GC</span>
+        <span class="brand-mark" aria-hidden="true">
+  <img src="/favicon-64.png" alt="" class="brand-mark__image" />
+</span>
         <span class="app-header__brand-text">gaetancanovas<em>.dev</em></span>
       </NuxtLink>
 

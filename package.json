@@ -1,7 +1,4 @@
 {
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
@@ -13,12 +10,10 @@
     "clean": "rm -rf .nuxt .output node_modules package-lock.json"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "latest",
-    "nuxt": "latest",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@nuxtjs/i18n": "10.4.0",
+    "nuxt": "4.4.8",
   },
   "devDependencies": {
-    "typescript": "latest"
+    "typescript": "6.0.3"
   }
 }

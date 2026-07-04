@@ -141,11 +141,11 @@ export const chantierDetailsFr: DetailPage[] = [
       { label: 'Statut', value: 'Application desktop terminée' },
       { label: 'Format', value: 'Electron, usage local' },
       { label: 'Données', value: 'Bibliothèque personnelle, filtres, statuts' },
-      { label: 'Prochaine preuve', value: 'Captures réelles + vidéo courte' }
+      { label: 'À ajouter', value: 'Captures réelles + vidéo courte' }
     ],
     media: {
-      title: 'Preuves visuelles à ajouter',
-      description: 'La page est prête pour recevoir les vraies captures, une vidéo courte et, plus tard, une mini-démo web simplifiée avec données fictives. Aucun faux screenshot n’est publié dans cette version.',
+      title: 'Démo visuelle',
+      description: 'Cette page accueillera les vraies captures de l’application, une courte vidéo de démonstration et, plus tard, une éventuelle mini-démo web avec données fictives.',
       items: [
         {
           title: 'Vidéo courte',
@@ -155,12 +155,12 @@ export const chantierDetailsFr: DetailPage[] = [
         {
           title: 'Captures commentées',
           kind: 'screenshot',
-          description: 'Emplacements prévus pour 4 à 6 captures : board principal, fiche jeu, filtres, édition, statuts et éventuelles statistiques.'
+          description: 'Captures prévues : vue principale, fiche jeu, filtres, édition, statuts et éventuelles statistiques.'
         },
         {
           title: 'Démo web simplifiée',
           kind: 'demo',
-          description: 'Option V1.5 : une version navigateur avec données fictives pour comprendre le produit sans télécharger l’app desktop.'
+          description: 'Piste future : une version navigateur avec données fictives pour comprendre le produit sans télécharger l’app desktop.'
         }
       ]
     },
@@ -207,8 +207,8 @@ export const chantierDetailsFr: DetailPage[] = [
         ]
       },
       {
-        title: 'Avant publication V1',
-        body: ['La page attend encore les assets réels : captures, courte vidéo et éventuel poster. La structure est prête, mais il vaut mieux ne pas publier de visuels fictifs pour un projet justement présenté comme terminé.']
+        title: 'Visuels à venir',
+        body: ['Les captures, la courte vidéo et l’éventuel poster seront ajoutés à partir de vrais exports de l’application. Le projet est terminé ; la présentation publique doit rester aussi honnête que le produit.']
       }
     ]
   },
@@ -238,7 +238,7 @@ export const chantierDetailsFr: DetailPage[] = [
         ]
       },
       {
-        title: 'Ce que ce chantier peut prouver',
+        title: 'Ce que ce chantier peut montrer',
         body: ['Une fois matérialisé, ce prototype permettra de montrer une capacité à penser au-delà de la page : architecture d’information, composants éditoriaux, données sportives, hiérarchie commerciale et expérience récurrente pour des supporters.']
       }
     ]

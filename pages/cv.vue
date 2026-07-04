@@ -20,7 +20,7 @@ const cv = computed(() => currentLocale.value === 'fr'
       badge: 'Document pratique',
       downloadLabel: 'Télécharger le CV PDF',
       downloadHref: '/documents/gaetan-canovas-cv-fr.pdf',
-      note: 'Le site montre l’approche, les preuves et les explorations. Le CV synthétise le parcours dans un format pratique.',
+      note: 'Le site montre l’approche, les réalisations et les explorations. Le CV synthétise le parcours dans un format pratique.',
       profileTitle: 'Profil',
       profile: 'Développeur front-end orienté produit, performance et modernisation, avec spécialité Vue / Nuxt, expérience React, SSR, CMS headless, SEO technique et projets à fort trafic.',
       sections: [
@@ -61,7 +61,7 @@ const cv = computed(() => currentLocale.value === 'fr'
       badge: 'Practical document',
       downloadLabel: 'Download resume PDF',
       downloadHref: '/documents/gaetan-canovas-resume-en.pdf',
-      note: 'The site shows the approach, proof and explorations. The resume summarizes the background in a practical format.',
+      note: 'The site shows the approach, projects and explorations. The resume summarizes the background in a practical format.',
       profileTitle: 'Profile',
       profile: 'Product-minded front-end developer focused on performance and modernization, with a strong Vue / Nuxt background, React experience, SSR, headless CMS, technical SEO and high-traffic projects.',
       sections: [

@@ -1,4 +1,4 @@
-# gaetancanovas.dev — Nuxt V0.9 scaffold
+# gaetancanovas.dev — Nuxt V0.9.1 scaffold
 
 Minimal bilingual Nuxt 3 scaffold for `gaetancanovas.dev`.
 
@@ -237,6 +237,15 @@ Screenshots should be `.webp`, max width 1600px. Videos should stay short and co
 - Regenerated `public/sitemap.xml` with `lastmod` and FR/EN alternates.
 - Added `public/_headers` with basic static security/privacy headers for compatible hosts.
 - Added `docs/release-checklist.md` for the final V1 publication pass.
+
+
+### V0.9.1 — editorial wording polish
+
+- Replaced internal/test wording on the home page and index pages with more publishable copy.
+- Localized several section eyebrow labels that were still hard-coded in English on FR pages.
+- Softened portfolio/meta language around “proof”, “rules”, artificial showcases and placeholders.
+- Clarified Backlog JV media wording without pretending screenshots or videos already exist.
+- Updated footer, CV and about copy to use more natural public wording.
 
 ## Before V1 publication
 

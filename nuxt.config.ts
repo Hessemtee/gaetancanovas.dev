@@ -34,7 +34,7 @@ export default defineNuxtConfig({
         { charset: 'utf-8' }
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+        { rel: 'icon', type: 'image/png', href: '/favicon.ico' }
       ]
     }
   },
@@ -50,17 +50,6 @@ export default defineNuxtConfig({
       { code: 'fr', language: 'fr-FR', name: 'Français', file: 'fr.json' },
       { code: 'en', language: 'en-US', name: 'English', file: 'en.json' }
     ]
-  },
-
-  routeRules: {
-    '/**': {
-      headers: {
-        'X-Frame-Options': 'DENY',
-        'X-Content-Type-Options': 'nosniff',
-        'Referrer-Policy': 'strict-origin-when-cross-origin',
-        'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=()'
-      }
-    }
   },
 
   nitro: {

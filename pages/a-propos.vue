@@ -52,7 +52,7 @@ useSiteSeo({
           <span class="icon-box icon-box--warm"><InlineIcon name="file" /></span>
           <div>
             <h2>{{ currentLocale === 'fr' ? 'Besoin d’un format CV ?' : 'Need a resume format?' }}</h2>
-            <p>{{ currentLocale === 'fr' ? 'Le site montre l’approche, les preuves et les explorations. Le CV synthétise le parcours dans un format plus pratique pour recruteurs, clients ou opportunités ponctuelles.' : 'The site shows the approach, proof and explorations. The resume summarizes the background in a more practical format for recruiters, clients or occasional opportunities.' }}</p>
+            <p>{{ currentLocale === 'fr' ? 'Le site montre l’approche, les réalisations et les explorations. Le CV synthétise le parcours dans un format plus pratique pour recruteurs, clients ou opportunités ponctuelles.' : 'The site shows the approach, projects and explorations. The resume summarizes the background in a more practical format for recruiters, clients or occasional opportunities.' }}</p>
             <div class="cluster about-cv__actions">
               <BaseButton :to="staticPaths.cv[currentLocale]" variant="secondary">
                 {{ t('cta.viewCv') }} <InlineIcon name="chevron-right" />

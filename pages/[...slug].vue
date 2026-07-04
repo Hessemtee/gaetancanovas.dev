@@ -59,6 +59,7 @@ useSiteSeo({
           <BaseButton :to="content.home">{{ content.primaryLabel }}</BaseButton>
           <BaseButton :to="content.contact" variant="secondary">{{ content.secondaryLabel }}</BaseButton>
         </div>
+       
       </div>
     </section>
 

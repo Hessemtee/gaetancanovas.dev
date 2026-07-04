@@ -7,13 +7,6 @@ export const atelierFr = [
     excerpt: 'Capturer, challenger et enterrer des idées pour réduire l’accumulation mentale.'
   },
   {
-    title: 'Backlog JV',
-    type: 'Application desktop terminée',
-    category: 'desktop',
-    icon: 'gamepad',
-    excerpt: 'Application Electron terminée pour organiser une bibliothèque de jeux vidéo, avec statuts, filtres et fiches détaillées.'
-  },
-  {
     title: 'TNSFC',
     type: 'Prototype média',
     category: 'prototype',

@@ -7,13 +7,6 @@ export const labEn = [
     excerpt: 'Capture, challenge and bury ideas to reduce mental clutter.'
   },
   {
-    title: 'Game Backlog',
-    type: 'Finished desktop app',
-    category: 'desktop',
-    icon: 'gamepad',
-    excerpt: 'A finished Electron app to organize a video game library with statuses, filters and detailed game views.'
-  },
-  {
     title: 'TNSFC',
     type: 'Media prototype',
     category: 'prototype',
